@@ -13,11 +13,19 @@
 		"url": "git://github.com/Floofies/console-buffer.git"
 	},
 	"devDependencies": {
-		"browserify": ""
+		"browserify": "^16.2.3",
+		"uglify-es": "^3.3.9"
 	},
 	"scripts": {
-		"browserify": "browserify index.js -o nsTable.js -s nsTable"
+		"bundle": "browserify ./index.js -s nsTable -o ./dist/nsTable.js && uglifyjs ./dist/nsTable.js -o ./dist/nsTable.min.js",
+		"prepare": "npm run bundle"
 	},
+	"main": "index.js",
+	"unpkg": "dist/nsTable.min.js",
+	"files": [
+		"dist/nsTable.js",
+		"dist/nsTable.min.js"
+	],
 	"keywords": [
 		"console.table",
 		"table",
