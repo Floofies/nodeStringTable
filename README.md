@@ -1,4 +1,7 @@
 # nodeStringTable
+
+[![NPM](https://nodei.co/npm/nodestringtable.png?compact=true)](https://nodei.co/npm/nodestringtable/)
+
 A fork of the [`console.table`](https://nodejs.org/api/console.html#console_console_table_tabulardata_properties) and `cli_table.js` NodeJS source code which returns Strings, and works in web browsers.
 
 This module works almost exactly like the NodeJS [`console.table`](https://nodejs.org/api/console.html#console_console_table_tabulardata_properties), with the main difference being that it returns a string rather than logging it to the console.
