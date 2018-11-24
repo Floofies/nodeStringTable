@@ -1,7 +1,8 @@
 {
 	"name": "nodestringtable",
 	"description": "A fork of the console.table and cli_table NodeJS source code which returns strings, and works in web browsers.",
-	"version": "1.0.0",
+	"version": "1.0.2",
+	"license": "MIT",
 	"author": "Dani Glore (https://github.com/Floofies/)",
 	"contributors": [
 		"Ruben Bridgewater (https://github.com/BridgeAR)",
@@ -10,7 +11,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/Floofies/console-buffer.git"
+		"url": "git://github.com/Floofies/nodeStringTable.git"
 	},
 	"devDependencies": {
 		"browserify": "^16.2.3",
